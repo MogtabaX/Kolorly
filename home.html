@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+
+    <title>كولورلي</title>
+</head>
+<body id="bady">
+
+    <nav class="navbar navbar-expand navbar-light bg-light" id="bb">
+        <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+          
+              </li>
+              <li class="nav-item">
+                <a id="generate" href="home.html" class="nav-link active" style="cursor:pointer;" >انشاء</a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="me.html">من انا؟</a>
+                  </li>
+                  
+            </ul>
+            <a class="navbar-brand" href="#" id="colorly" >كولورلي</a>
+          </div>
+        </div>
+      </nav>
+
+   <script>
+     var x =4;
+
+       for(var i=0; i<window.innerWidth; i++)
+     {
+        const colorid = Math.floor(Math.random()*16777215).toString(16);
+        const block = document.createElement("a");
+        block.style = "margin: 0%;margin-top: 0px;margin-left: 0px; top: 0px;";
+        block.style.height = x+"rem";
+        block.style.width=x+"rem";
+        block.style.backgroundColor="#"+colorid;      
+        document.body.appendChild(block);  
+     }
+     
+    function press()
+    {
+
+
+    //     for(var i=0; i<window.innerWidth; i++)
+    //  {
+    //     const colorid = Math.floor(Math.random()*16777215).toString(16);
+    //     const block = document.createElement("a");
+    //     block.style = "width:3rem; height:3rem;margin: 0%;margin-top: 0px;margin-left: 0px; top: 0px;";
+    //     block.style.backgroundColor="#"+colorid;      
+    //     document.body.appendChild(block);  
+    //  }
+     
+    }
+    
+    generate.addEventListener("click", press);
+    
+
+</script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+body
+ {
+    font-family: 'Lalezar', cursive;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+    margin: 0%;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 0px;
+  }
+  #bb
+  {
+    display: block;
+    position: fixed;
+    border-radius: 10px;
+    top: 10px;
+
+  }
+.navbar
+{
+  mix-blend-mode:luminosity;
+  z-index: 1;
+}
+.card
+{
+  top: 30vh;
+
+}
+
+

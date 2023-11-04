@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>منو اني؟</title>
+</head>
+<body style="display: flex; flex-wrap: wrap; margin: 0;">
+
+   <nav class="navbar navbar-expand navbar-light bg-light" id="bb">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="home.html">الرجوع</a>
+                </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+        <div class="card" style="width: 18rem; position:fixed; margin: auto;">
+            <img class="card-img-top" src="photo.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" style="text-align: center;">مجتبى تومان</p>
+               
+               <p class="card-text" style="text-align: center; font-weight: 100;">مطور بزازين </p> 
+            </div>
+          </div>
+    <script>
+        for(var i=0; i<window.innerWidth; i++)
+     {
+        const colorid = Math.floor(Math.random()*16777215).toString(16);
+        const block = document.createElement("a");
+        block.style = "width:3rem; height:3rem;margin: 0%;margin-top: 0px;margin-left: 0px; top: 0px;"
+        block.style.backgroundColor="#"+colorid;
+        document.body.appendChild(block);
+     }
+     
+     
+    
+    </script>
+</body>
+</html>

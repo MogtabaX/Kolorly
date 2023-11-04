@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark"
+}
